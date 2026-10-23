@@ -1,0 +1,32 @@
+{
+  "name": "Mothlet",
+  "id": "dev.mothlet.vpm",
+  "url": "https://markoapple.github.io/vpm/index.json",
+  "author": "Mothlet",
+  "packages": {
+    "dev.mothlet.vrcforward": {
+      "versions": {
+        "0.3.0": {
+          "name": "dev.mothlet.vrcforward",
+          "displayName": "VRCForward",
+          "version": "0.3.0",
+          "unity": "6000.0",
+          "unityRelease": "67f1",
+          "description": "Native sound variations, signed texture data and quality-aware arrays for Unity 6 VRChat avatars, through the normal SDK.",
+          "author": {
+            "name": "Mothlet"
+          },
+          "license": "MIT",
+          "dependencies": {
+            "com.unity.ugui": "2.0.0"
+          },
+          "vpmDependencies": {
+            "com.vrchat.avatars": "=3.10.5"
+          },
+          "url": "https://markoapple.github.io/vpm/dev.mothlet.vrcforward-0.3.0.zip",
+          "zipSHA256": "35861429c6af8caf32374f2f053858d7217ec8c276e31dc3c7b202c83ce2dd3f"
+        }
+      }
+    }
+  }
+}
